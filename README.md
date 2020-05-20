@@ -1,0 +1,2 @@
+# scripts
+Repetitve tasks helper
