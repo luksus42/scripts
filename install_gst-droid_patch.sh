@@ -3,8 +3,6 @@
 sudo umount /lib/udev/rules.d/70-android.rules
 # Make root fs writeable
 sudo mount -o remount,rw /
-# A package in the repository shouldn't be upgraded
-sudo apt-mark hold qtubuntu-android
 # install patch
 sudo ubports-qa install xenial_-_gst-droid
 
